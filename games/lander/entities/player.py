@@ -4,8 +4,8 @@ class Player:
     'Class for players ship'
     rotationPos = 0
     fuelRemaining = 20000
-    imgThrust = Image.open("\\images\\landerthrust.jpg")
-    imgRest = Image.open("\\images\\lander.jpg")
+    imgThrust = Image.open("\\images\\landerThrust.bmp")
+    imgRest = Image.open("\\images\\lander.bmp")
     velocityX = 0
     velocityY = 0
     positionX = 50
@@ -15,6 +15,8 @@ class Player:
     accelPerUnitFuel = .5
     cellx = 13
     celly = 13
+    frameRate = 30
+    degreeRotationPerFrame = 1
 
     def __init__(self, rotationInit, fuelInit, gravitInit, unitsFuelPerTimeInit, accelPerUnitFuelInit):
         Player.rotationPos = rotationInit
@@ -24,5 +26,17 @@ class Player:
         Player.gravity = gravityInit
         
    
- 
+     def RotateRight (self)
+     
+     def RotateLeft (self)
+     
+     def Thrust (self)
+     
+     def UpdateVelocityY (self)
+     
+     def UpdateVelocityX (self)
+     
+     def UpdateFuel (self)
+     
+     
 
