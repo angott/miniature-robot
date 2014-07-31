@@ -26,17 +26,17 @@ class Player:
         Player.gravity = gravityInit
         
    
-     def RotateRight (self)
-     
-     def RotateLeft (self)
-     
-     def Thrust (self)
-     
-     def UpdateVelocityY (self)
-     
-     def UpdateVelocityX (self)
-     
-     def UpdateFuel (self)
-     
+ #   def RotateRight(self)
+         
+ #   def RotateLeft(self)
+         
+ #   def Thrust(self)
+         
+ #  def UpdateVelocityY(self)
+         
+ #   def UpdateVelocityX(self)
+         
+ #   def UpdateFuel(self)
+         
      
 
